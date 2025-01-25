@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 if os.path.exists("local.env"):
     load_dotenv("local.env")
  
-STRING_SESSION1 = getenv("STRING_SESSION1", "")
+STRING_SESSION1 = getenv("STRING_SESSION1", "BQFpNsAANORNUBzE1f9xKSXZpsI7BXZM5aLlXr9Jsrws7k9whbYXWwqpu_qyhRVE2tczmaTbouZ3p2awNKw5XxUHSf1iIviTC4ksO8vTVWza0q6z3PPG_RCMTZiDH67fM9ECHkDPWa03l09URwooOnmsu7zOgWgoWM7npl0iF2uyOgYejVwtriKyN89J0gUXYqEob98uh98pNo3gek2s5O50QoYrXoi1CsKRSZiZhnTS16IMosK_xbwagmrAOTJFxZfBHDIXoRX1zMMdBL8qyvHD1-RvINl9u2yEHFLlbhA8IDiOChfWmfhjvphTQEvEvdB_6oWmZRZqpXJl1xivHpsCoH5LwgAAAAHDoqu_AA")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
 STRING_SESSION4 = getenv("STRING_SESSION4", "")
