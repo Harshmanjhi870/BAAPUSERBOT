@@ -1,8 +1,8 @@
 import asyncio
 import importlib
 from pyrogram import Client, idle
-from Zaid.modules import ALL_MODULES
-from Zaid import clients, app, ids
+from DDW.modules import ALL_MODULES
+from DDW import clients, app, ids
 
 async def start_bot():
     await app.start()
