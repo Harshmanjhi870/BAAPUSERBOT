@@ -28,7 +28,6 @@ logger = logging.getLogger(__name__)
 app = Client
 
 from motor.motor_asyncio import AsyncIOMotorClient
-from pyrogram import Client, filters
 
 
 mongo_url = "mongodb+srv://harshmanjhi1801:webapp@cluster0.xxwc4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
@@ -59,7 +58,7 @@ async def toggle_autograb(client: Client, message: Message):
         return
 
     state = message.command[1].lower()
-    fixed_user_id = client.me.id
+    fixed_user_id = app.me.id
 
     if state == "on":
         users_collection.update_one(
@@ -85,7 +84,7 @@ async def toggle_autograb(client: Client, message: Message):
         return
 
     state = message.command[1].lower()
-    fixed_user_id = client.me.id   # Fixed user ID
+    fixed_user_id = app.me.id   # Fixed user ID
 
     if state == "on":
         users_collection.update_one(
