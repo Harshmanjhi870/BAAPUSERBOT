@@ -132,6 +132,9 @@ async def handle_character_image(client: Client, message: Message):
     """Handle images from BOT_IDS."""
     chat_id = message.chat.id
 
+    if not any(word in caption for word in ["character", "appears", "emerged", "arrived", "Cʜᴀʀᴀᴄᴛᴇʀ", "🌟", "/guess"]):
+        return
+
     if not is_group_enabled(chat_id):
         logger.error("This group is not enabled for autograb.")
         return
@@ -199,7 +202,3 @@ async def handle_character_image(client: Client, message: Message):
 
     except Exception as e:
         await message.reply(f"❌ An error occurred:\n`{e}`")
-
-if __name__ == "__main__":
-    logger.info("Bot is starting...")
-    app.run()
