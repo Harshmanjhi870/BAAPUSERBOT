@@ -19,7 +19,7 @@ clients = []
 ids = []
 
 
-aiosession = ClientSession()
+aiosession = None #ClientSession()
 
 if API_ID:
    API_ID = API_ID
