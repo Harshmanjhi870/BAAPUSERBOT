@@ -3,3 +3,5 @@ pymongo
 tgcrypto 
 requests
 python-dotenv
+aiohttp
+aiofiles
