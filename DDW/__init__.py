@@ -4,10 +4,10 @@ from datetime import datetime
 import time
 from aiohttp import ClientSession
 
-API_HASH = ""
+API_HASH = "709f3c9d34d83873d3c7e76cdd75b866"
 
-API_ID = ""
-BOT_TOKEN = ""
+API_ID = "25981592"
+BOT_TOKEN = "7717112901:AAE7ofcc841FuUARgPwNx8Olk5dBdf-OY_w"
 
 OWNER_ID = "7577185215"
 
