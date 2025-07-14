@@ -7,9 +7,9 @@ from aiohttp import ClientSession
 API_HASH = "709f3c9d34d83873d3c7e76cdd75b866"
 
 API_ID = "25981592"
-BOT_TOKEN = "7717112901:AAE7ofcc841FuUARgPwNx8Olk5dBdf-OY_w"
+BOT_TOKEN = "7960737943:AAHXPHjAQae5CgF9lovlC2fYpG6EztPny9U"
 
-OWNER_ID = "7577185215"
+OWNER_ID = "7073835511"
 
 StartTime = time.time()
 START_TIME = datetime.now()
